@@ -76,7 +76,7 @@ export const siteData = {
     },
   ],
   performance: {
-    image: "/images/servicos/mercado-refrigerado.png",
+    image: "/images/servicos/performance-limpa.png",
     title: "Performance, conservação e eficiência.",
     text:
       "Equipamentos de alta performance e manutenção especializada para o seu negócio continuar funcionando sem parar.",
@@ -146,7 +146,7 @@ export const siteData = {
     },
   ],
   cta: {
-    image: "/images/cta/ilha-refrigerada-comercial.png",
+    image: "/images/cta/cta-refrigeracao-limpa.png",
     title: "Seu negócio não pode parar.",
     highlight: "A gente mantém tudo gelando.",
     text:
