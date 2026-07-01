@@ -30,7 +30,16 @@ export default function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-slate-200">{siteData.hero.subtitle}</p>
 
-          <div className="mt-9 grid gap-4 sm:grid-cols-3">
+          <div className="mt-9 max-w-xl rounded-lg border border-ice/30 bg-midnight/45 p-4 shadow-glow backdrop-blur-sm">
+            <div className="flex items-center gap-3 text-base font-black text-white">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-ice/15 text-ice">
+                <ClipboardCheck className="h-5 w-5" />
+              </span>
+              <span>{siteData.hero.specialty}</span>
+            </div>
+          </div>
+
+          <div className="mt-5 grid gap-4 sm:grid-cols-3">
             {siteData.hero.highlights.map(({ label, icon: Icon }) => (
               <div key={label} className="flex items-center gap-3 text-sm font-semibold text-slate-100">
                 <Icon className="h-8 w-8 shrink-0 text-ice" strokeWidth={1.5} />

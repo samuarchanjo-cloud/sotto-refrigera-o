@@ -33,6 +33,7 @@ export const siteData = {
     highlightedWord: "Climatização",
     subtitle:
       "Soluções completas em refrigeração comercial para manter sua operação sempre no nível ideal de performance e eficiência.",
+    specialty: "Engenharia da refrigeração e climatização",
     highlights: [
       { label: "Equipamentos de qualidade", icon: Snowflake },
       { label: "Técnicos especializados", icon: Wrench },
