@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f8fbff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+section {
+  scroll-margin-top: 92px;
+}
+
+.section-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.image-overlay {
+  background:
+    linear-gradient(90deg, rgba(10, 22, 40, 0.96) 0%, rgba(10, 22, 40, 0.78) 42%, rgba(10, 22, 40, 0.24) 100%),
+    radial-gradient(circle at 72% 30%, rgba(34, 211, 238, 0.18), transparent 34%);
+}
+
+.cta-overlay {
+  background:
+    linear-gradient(90deg, rgba(10, 22, 40, 0.98) 0%, rgba(10, 22, 40, 0.84) 52%, rgba(10, 22, 40, 0.4) 100%),
+    radial-gradient(circle at 78% 54%, rgba(6, 182, 212, 0.2), transparent 36%);
+}
+
+@media (max-width: 767px) {
+  .image-overlay,
+  .cta-overlay {
+    background: linear-gradient(180deg, rgba(10, 22, 40, 0.96), rgba(10, 22, 40, 0.78));
+  }
+}
